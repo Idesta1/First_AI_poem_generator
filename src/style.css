@@ -1,14 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+
+
 body{
+    background-image: url("../Background Image Reference 3 - Imgur.jpg");
+    font-family: "Cherry Swash", serif;
     
-    font-family: Arial, Helvetica, sans-serif;
-    background: #e4d6e4;
+    
    
 }
 h1{
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 800;
     line-height: 1.5;
-    color: #272044;
+    color: #b8adec;
     text-align: center;
 }
 .container{
@@ -61,21 +66,23 @@ form{
     line-height: 1.5;
     box-shadow: 0px 4px 30px 8px rgba(39, 33, 66, 0.03);
     border-left: 3px solid  #1e0484
+ 
 }
 .hidden{
     display:none;
 }
 .poem strong{
-    color: #1e0484;
+   color: #b8adec;
 }
 footer{
     margin-top: 30px;
     font-size: 12px;
     text-align: center;
+    font-family:'Courier New', Courier, monospace;
 
 }
 a{
-    color:#1e0484;
+    color:#b8adec;
 }
 @keyframes blink {
     50%{
